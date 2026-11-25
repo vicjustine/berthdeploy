@@ -12,7 +12,7 @@ class Slot:
 FLEET = [
     Slot("B1", 2400, False), 
     Slot("B2", 3800, True), 
-    Slot("B3", 1511, True),
+    Slot("B3", 1600, False),
     # So we tried for b3 and b1 with changed values but the bad commit is on main. The live sit remained untouched. The gate also did not warn me it refused it. 
     #Now we can see that reverting bad values commit will only stay on main while the gate refuses it. I will try changing B3 to make sure everything is working. 
 ]
