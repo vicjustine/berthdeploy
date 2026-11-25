@@ -11,7 +11,7 @@ class Slot:
 
 FLEET = [
     Slot("B1", 2400, False),
-    Slot("B2", 3500, True), 
+    Slot("B2", 3800, True), 
     Slot("B3", 1600, True),
 ]
 
